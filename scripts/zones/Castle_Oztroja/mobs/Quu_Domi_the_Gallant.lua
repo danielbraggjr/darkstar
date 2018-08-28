@@ -4,7 +4,7 @@
 -----------------------------------
 
 function onMobSpawn(mob)
-    if (math.random(1,100) <= 7) then -- Hardcoded "this or this item" drop rate until implemented.
+    if (math.random(1,100) <= 44) then -- Hardcoded "this or this item" drop rate until implemented.
         SetDropRate(2916,15737,1000); -- Sarutobi Kyahan
         SetDropRate(2916,16820,0);
     else
